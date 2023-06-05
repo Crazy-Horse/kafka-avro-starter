@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "CustomerMessage",
+  "namespace": "io.confluent.schema",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "lastName",
+      "type": "string"
+    }]
+}
